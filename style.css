@@ -191,7 +191,7 @@ p.more-info {
     grid-column-start: 1;
     grid-column-end: 3;
     text-align: center;
-    background-color: #484343;
+    background-color: #5d5a5a;
 }
 
 .two-collums img {
@@ -212,4 +212,19 @@ div.two-collums p {
 }
 
 .article-section article {
+}
+
+.row-3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+    background-color: #5a5656;
+}
+
+.row-3 img {
+    width: 150px;
+}
+
+div.row-3 p {
+    margin-top: 0px;
 }
