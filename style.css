@@ -185,7 +185,6 @@ p.more-info {
     text-align: center;
     vertical-align: middle;
     line-height: 36px;
-    margin-left: -11px;
 }
 
 .two-collums {
@@ -213,5 +212,4 @@ div.two-collums p {
 }
 
 .article-section article {
-    margin-left: 11px;
 }
