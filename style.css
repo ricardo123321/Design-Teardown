@@ -80,11 +80,10 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -99,30 +98,30 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 nav {
@@ -160,6 +159,7 @@ nav div {
 p {
     color: white;
     font-size: 12px;
+    width: 60%;
 }
 
 a {
@@ -356,78 +356,81 @@ div.row-3 p {
     margin-top: 0px;
 }
 
-.ethical-desing{
+.ethical-desing {
     background: gray;
     text-align: center;
 }
 
 footer p a {
-	color: #e8e9eb;
-  }
+    color: #e8e9eb;
+}
 
 footer ul li a {
-	font-size: 2rem;
-	color: #e8e9eb;
-	text-decoration: none;
+    font-size: 2rem;
+    color: #e8e9eb;
+    text-decoration: none;
 }
+
 .footer-links li a {
-	font-size: 17px;
-	text-decoration: underline;
-	color: #acada8;
-	font-weight: 500;
-  }
+    font-size: 17px;
+    text-decoration: underline;
+    color: #acada8;
+    font-weight: 500;
+}
+
 footer p {
-  width: 35%;
-  text-align: center;
-  margin-top: 30px;
-  color: #cccdc6;
-  line-height: 2rem;
+    width: 35%;
+    text-align: center;
+    margin-top: 30px;
+    color: #cccdc6;
+    line-height: 2rem;
 }
 
 footer h3 {
-  margin-bottom: 3rem;
-  color: #e8e9eb;
-  font-size: 1rem;
-  font-weight: 700;
+    margin-bottom: 3rem;
+    color: #e8e9eb;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 footer ul {
-  display: flex;
-  list-style: disc inside;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  color: #e8e9eb;
+    display: flex;
+    list-style: disc inside;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: #e8e9eb;
 }
+
 footer ul li {
-  margin: 10px 5px;
-  line-height: 30px;
+    margin: 10px 5px;
+    line-height: 30px;
 }
 
 footer {
-  height: 30rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 6rem;
-  margin-top: 5rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    margin-top: 5rem;
+    clear: both;
 }
 
 .footer-links {
-  width: 35%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  list-style: none;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
 }
 
 .footer-dark {
-	background: #746d69;
-  }
+    background: #746d69;
+}
 
-  
 .ethical-desing {
     background: gray;
     text-align: center;
@@ -465,4 +468,88 @@ footer {
 
 .more-art img {
     float: left;
+}
+
+.smash-book img {
+    float: right;
+    height: 148px;
+    margin-top: -36px;
+    margin-right: 47px;
+}
+
+.smash-book p {
+}
+
+.smash-book {
+    background-color: #584949;
+    color: #ffffff;
+    height: 135px;
+    margin-top: 60px;
+}
+
+.smash-book p,
+.smash-book h2,
+.smash-book button {
+    margin-left: 39px;
+    margin-top: 15px;
+}
+
+.posts li p {
+    color: #0008ff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.posts li {
+    list-style-type: circle;
+    color: #585858;
+    margin-left: 50px;
+}
+
+.posts h2 {
+    margin-left: 20px;
+}
+
+.posts div {
+    height: 328px;
+}
+
+.ethical-desing p {
+    width: auto;
+}
+
+nav p {
+    width: auto;
+}
+
+.smash-news {
+    text-align: center;
+    background-color: #5b5757;
+    margin-top: 38px;
+}
+
+.smash-news img {
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.smash-news p {
+    width: auto;
+}
+
+.smash-news input {
+    position: relative;
+    left: 3px;
+}
+
+.smash-news button {
+    bottom: 1px;
+    position: relative;
 }
