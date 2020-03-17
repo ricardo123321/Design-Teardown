@@ -119,6 +119,12 @@ q::after {
     content: none;
 }
 
+h2,
+h1,
+h3 {
+    font-family: 'Anton', sans-serif;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -165,6 +171,7 @@ p {
     color: white;
     font-size: 12px;
     width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -205,6 +212,7 @@ img.seach {
 }
 
 .main-article h1 {
+    font-family: ;
     font-size: 30px;
     line-height: 36px;
     text-align: left;
@@ -380,8 +388,8 @@ footer p {
     text-align: center;
     margin-top: 30px;
     color: #cccdc6;
-	line-height: 2rem;
-	font-size: 17px;
+    line-height: 2rem;
+    font-size: 17px;
 }
 
 footer h3 {
@@ -449,12 +457,15 @@ footer {
     float: left;
     width: 149px;
     margin-top: 20px;
+    border: 9px solid;
+    border-radius: 20px;
+    margin-left: 33px;
 }
 
 .person-week p {
     color: #000000;
     margin-top: 30px;
-    margin-left: 164px;
+    margin-left: 210px;
 }
 
 .more-art {
@@ -467,8 +478,9 @@ footer {
 .more-art img {
     float: left;
     width: 64px;
-    padding-bottom: 48px;
     margin-right: 15px;
+    border: 5px solid;
+    border-radius: 11px;
 }
 
 .smash-book img {
@@ -560,8 +572,13 @@ img {
 .last-art p {
     color: #000000;
     width: 80%;
+    margin-left: 80px;
 }
 
 article.last-art {
     margin-left: 20px;
+}
+
+.white-t {
+    color: #ffffff;
 }
