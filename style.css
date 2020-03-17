@@ -124,12 +124,13 @@ table {
     border-spacing: 0;
 }
 
-.header-container{
-	display: flex;
-	flex-direction: row;
-	border-bottom: 1px solid #F2F2F2;
-	padding: 2.3em 0;
+.header-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 2.3em 0;
 }
+
 nav {
     background: #7a7878;
     text-align: center;
@@ -544,4 +545,9 @@ nav p {
 .smash-news button {
     bottom: 1px;
     position: relative;
+}
+
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
