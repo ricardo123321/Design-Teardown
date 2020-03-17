@@ -426,3 +426,43 @@ footer {
 .footer-dark {
 	background: #746d69;
   }
+
+  
+.ethical-desing {
+    background: gray;
+    text-align: center;
+}
+
+.ethical-desing img {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.person-week {
+    margin-top: 20px;
+}
+
+.person-week img {
+    float: left;
+    width: 149px;
+    margin-top: 20px;
+}
+
+.person-week p {
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 164px;
+}
+
+.more-art {
+    display: grid;
+    clear: left;
+    margin-top: 148px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.more-art img {
+    float: left;
+}
