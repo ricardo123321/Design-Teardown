@@ -277,7 +277,7 @@ a {
     text-align: center;
     margin-left: calc(50% - 80px);
     background-color: #ffffff;
-    margin-top: 46px;
+    margin-top: 49px;
     top: 142px;
 }
 
@@ -580,5 +580,17 @@ article.last-art {
 }
 
 .white-t {
+    color: #ffffff;
+}
+
+.article-section article {
+    margin-left: 10px;
+}
+
+.smashing-white {
+    color: #ffffff;
+}
+
+p.smashing-white {
     color: #ffffff;
 }
