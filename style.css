@@ -363,7 +363,7 @@ footer p a {
 }
 
 footer ul li a {
-    font-size: 2rem;
+    font-size: 17px;
     color: #e8e9eb;
     text-decoration: none;
 }
@@ -380,7 +380,8 @@ footer p {
     text-align: center;
     margin-top: 30px;
     color: #cccdc6;
-    line-height: 2rem;
+	line-height: 2rem;
+	font-size: 17px;
 }
 
 footer h3 {
@@ -405,7 +406,7 @@ footer ul li {
 }
 
 footer {
-    height: 30rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
