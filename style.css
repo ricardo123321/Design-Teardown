@@ -119,3 +119,11 @@ span.user-g {
     top: -25px;
     left: -22px;
 }
+.center-img1{
+    position: absolute;
+    width: 317px;
+    z-index: 1;
+    text-align: center;
+    margin-left: calc(50% - 168px);
+    background-color: #ffffff;
+}
