@@ -124,6 +124,12 @@ table {
     border-spacing: 0;
 }
 
+.header-container{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #F2F2F2;
+	padding: 2.3em 0;
+}
 nav {
     background: #7a7878;
     text-align: center;
@@ -146,14 +152,12 @@ nav div {
 
 .logo img {
     padding-top: 32px;
-    margin-top: 19px;
+    margin-top: 15%;
 }
 
 .navEl img {
     min-width: 30px;
-    width: 21%;
-    margin-bottom: -15px;
-    margin-top: 15px;
+    margin-top: 15%;
 }
 
 p {
@@ -174,7 +178,7 @@ a {
 img.seach {
     width: 16px;
     height: 15px;
-    =: relative;
+    display: relative;
     vertical-align: middle;
 }
 
@@ -226,12 +230,6 @@ img.seach {
     text-align: center;
     margin-left: calc(50% - 168px);
     background-color: #ffffff;
-}
-
-height: {
-}
-
-.first-art article {
 }
 
 .main-article .first-art {
@@ -336,9 +334,6 @@ div.two-collums p {
 
 .two-collums span {
     text-decoration: underline;
-}
-
-.article-section article {
 }
 
 .row-3 {
@@ -475,9 +470,6 @@ footer {
     height: 148px;
     margin-top: -36px;
     margin-right: 47px;
-}
-
-.smash-book p {
 }
 
 .smash-book {
